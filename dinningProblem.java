@@ -1,4 +1,3 @@
-
  
 import java.util.ArrayList;
 import java.util.Random;
@@ -86,19 +85,19 @@ class Main {
         long endTime = System.currentTimeMillis() + (runSeconds * 1000);
  
         do {                                                    //  print status
-            StringBuilder sb = new StringBuilder("|");
+            StringBuilder sb = new StringBuilder(" [ ");
  
             for (Philosopher p : philosophers) {
                 sb.append(p.state.toString());
                 sb.append("|");            //  This is a snapshot at a particular
             }                              //  instant.  Plenty happens between.
  
-            sb.append("     |");
+            sb.append("     ]");
  
             for (Fork f : forks) {
                 int holder = f.holder.get();
                 sb.append(holder==-1?"   ":String.format("P%02d",holder));
-                sb.append("|");
+                sb.append(" [ ");
             }
  
             System.out.println(sb.toString());
