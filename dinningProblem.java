@@ -1,4 +1,4 @@
-package diningphilosophers;
+
  
 import java.util.ArrayList;
 import java.util.Random;
@@ -72,7 +72,7 @@ class Philosopher implements Runnable {
     }
 }
  
-public class Main {
+class Main {
     static final int philosopherCount = 5; //  token +2 behavior good for odd #s
     static final int runSeconds = 15;
     static ArrayList<Fork> forks = new ArrayList<Fork>();
