@@ -1,0 +1,12 @@
+this problem is synchronization of three process named cat, Lizard and monkey all have to graze in single resource field
+there need to synchronise their timing of grazing
+
+
+process to Execute
+
+type on command prompt following command
+
+javac CatLizardSem.java
+
+java CatLizardSem
+
