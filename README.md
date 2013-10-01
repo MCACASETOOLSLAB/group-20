@@ -63,8 +63,8 @@ process execute:
 type following command on command prompt
 
 
-javac <fileName>.java
-java <MainclassName>
+javac  <fileName>.java
+java  <MainclassName>
 
 
 
