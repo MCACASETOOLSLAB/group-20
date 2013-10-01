@@ -56,4 +56,25 @@ of locks and synchronizations that require strict adherence to methods and proto
 starvation, or data corruption are to be avoided.
 
 
+process execute:
+
+
+
+type following command on command prompt
+
+
+javac <fileName>.java
+java <MainclassName>
+
+
+
+According to  my program
+
+javac diningProblem.java
+java Main
+
+ 
+ 
+
+
   
